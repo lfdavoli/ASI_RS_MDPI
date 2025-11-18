@@ -153,7 +153,6 @@ def weighted_linear_regression_with_pvalues(x, y, sigma_y):
     '''
 
     # Numerical recipe code 15.2 (https://numerical.recipes/book.html)
-    # Translated to python by copilot and checked.
     ndata = len(x)
     x = np.array(x)
     y = np.array(y)
